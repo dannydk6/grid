@@ -1,0 +1,31 @@
+.sidebar-open {
+	display:flex;
+	flex-direction: column;
+	width: 220px;
+	min-width: 220px;
+	flex-grow:1;
+	left:0px;
+	background-color: white;
+	z-index: 1;
+	transition: left linear .2s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.sidebar-closed{
+	display:none;
+}
+
+@media (max-width: 620px) {
+	.sidebar-open {
+		min-width: 100vw;
+		text-align: center;
+	}	
+}
+
+.links {
+padding: 20px;
+}
+
+
